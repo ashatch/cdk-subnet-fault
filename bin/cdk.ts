@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { App, Construct, Stack, StackProps } from '@aws-cdk/cdk';
+import { App, Construct, Stack, StackProps } from '@aws-cdk/core';
 import { Vpc } from '@aws-cdk/aws-ec2';
 
 const app = new App();
